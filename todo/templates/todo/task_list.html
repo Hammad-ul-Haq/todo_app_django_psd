@@ -19,9 +19,8 @@
         <input type="text" name="search-area"  placeholder="Search your task" value="{{search_input}}">
         <input style="margin-left:5px;" class="button" type="submit" value="Search">
     </form>
-    {% if tasks|length > 0 %}
+
     <a id="add-link" href="{% url 'task_create' %}">&#x2b;</a>
-    {% endif %}
 </div>
 
 
